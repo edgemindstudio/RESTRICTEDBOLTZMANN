@@ -1,13 +1,35 @@
-.venv/
+# Python
 __pycache__/
-.pytest_cache/
-artifacts/**
-logs/**
-*.pt
-*.h5
-*.png
-*.npy
+*.py[cod]
+*.egg-info/
+*.egg
+*.log
 .DS_Store
-eval/val_common.py
-eval/synth_loader.py
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Artifacts / generated outputs
+artifacts/
+samples/
+synthetic/
+tensorboard/
+metrics/
+
+# Model weights / checkpoints
+*.weights.h5
+*.joblib
+*.ckpt
+*.pt
+*.pth
 .USTC-TFC2016_malware/
+data/
+USTC-*/
+*.npy
+*.npz
